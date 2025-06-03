@@ -1,0 +1,78 @@
+class Global
+{
+	 static String bike_color="Black";
+      static String bike_brand="Royal Enfild";
+      static double bike_cost=315989.58;
+  public static void main(String []args)
+    {
+     
+     System.out.println("Bike brand is :"+ bike_brand);
+     System.out.println("Bike cost is : " + bike_cost);
+     System.out.println("Bike colour is :"+bike_color);
+     }
+   }
+
+   class Car
+{
+	  static double car_cost=2589745.90;
+      static String car_name="Skoda";
+     static String car_type="Petrol";
+  public static void main(String []args)
+    {
+     
+     System.out.println("Cost of the car is :"+ car_cost);
+     System.out.println("Car Name is :"+car_name);
+     System.out.println("Type of the car is :"+car_type);
+     }
+   }
+
+
+   class Clg
+{
+	  static String Course_name="BE";
+      static String Univer_name="DBIT";
+      static double exam_cost=100060.67; 
+  public static void main(String []args)
+    {
+     System.out.println("Name of the Course  is:"+ Course_name);
+     System.out.println("name of the University is :"+ Univer_name );
+     System.out.println("Exam cost is : " +exam_cost);
+     }
+   }
+
+
+   class Cloth
+{
+	static String cloth_colour="Black and White";
+     static double cloth_cost=899.99;
+      static String cloth_size="M";
+  public static void main(String []args)
+    {
+     System.out.println("Colour of the Cloth is :"+cloth_colour);
+     System.out.println("Cost of the Cloth is :"+cloth_cost);
+     System.out.println("Size of the Cloth is :"+cloth_size);
+     }
+   }
+
+
+   class Details
+{
+	static String name ="likhith";
+    static int age =23;
+    static String company_name="BLR";
+    static double salary=2500000.34;
+    static char gender='m';
+ public static void main(String []args)
+  {   
+    System.out.println("Name : "+name);
+    System.out.println("age : "+age);
+    System.out.println("company_name : "+company_name);
+    System.out.println("salary : "+salary);
+	System.out.println("Gender : "+gender);
+
+  }
+     }
+     
+
+
+    
